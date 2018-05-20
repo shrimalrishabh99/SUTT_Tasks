@@ -1,0 +1,19 @@
+git bash commands
+
+1. git add "filename.txt" = to add to staging area (git add .  (for full directory))
+2. git commit -m "Message for Commit here" = to commit what is in staging area
+3. git init = to make a repository
+4. git config --global user.name/user.email
+5. basic linux = .. OR / OR ~ OR pwd OR ls OR cd
+6. git log = list of commits
+7. git log --author="Rishabh"
+8. git status
+9. git diff (difference between working copy and repository)
+10. git diff --staged (difference between working copy and stage)
+11. git rm "filename.txt" (removes from repository and working copy)
+12. git mv "file1.txt" "renamedName.txt"
+13. git mv "file1.txt" "FolderName"/"FileNameinNewFolder.txt"
+14. git commit -am "message" = to add from repository directly to repository with using stage area
+15. git checkout -- "FileName.txt" = to undo changes made if they havent been committed
+16. git reset HEAD "filename.txt" = to change back to the repository value
+17. git checkout "commit number" --"FileName.form"
